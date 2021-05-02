@@ -10,14 +10,14 @@ For whatever reason, this camera does not want to work on my Void Linux installa
  - Device configuration dumped
  - Device configuration analyzed
  - Frame request and response dumped
+ - Create nice wireshark dump for this repo (device plug-in sequence, video dump)
+ - POC Device configuration in ~~PyUSB or~~ libusb
 
 ## TODO
 
- - Create nice wireshark dump for this repo (device plug-in sequence, video dump)
- - POC Device configuration in PyUSB or libusb
  - POC Raw data dumper
  - POC Frame dumper in RGB
- - Full blown linux kernel driver
+ - Full blown linux kernel driver (v4l2?)
 
 ## What I know so far
 
