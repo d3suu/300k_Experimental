@@ -3,7 +3,9 @@
 #include <errno.h>
 #include "libusb.h"
 
-// Compile with: gcc camera-init.c -I/usr/include/libusb-1.0 -lusb-1.0
+// Compile with:
+// On void: gcc camera-init.c -I/usr/include/libusb-1.0 -lusb-1.0
+// On ubuntu: gcc camera-init.c -I/root/libusb/libusb -lusb
 
 // Testing code, not for production
 
