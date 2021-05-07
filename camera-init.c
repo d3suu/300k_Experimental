@@ -5,7 +5,7 @@
 
 // Compile with:
 // On void: gcc camera-init.c -I/usr/include/libusb-1.0 -lusb-1.0
-// On ubuntu: gcc camera-init.c -I/root/libusb/libusb -lusb
+// On ubuntu (libusb-1.0-0-dev): gcc camera-init.c -I/usr/include/libusb-1.0/ -lusb-1.0
 
 // Testing code, not for production
 
